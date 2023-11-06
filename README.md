@@ -17,6 +17,7 @@ Your submission must satisfy the following requirements:
 * R10: Asynchronous for (`async for`) should *NOT* be counted.
 * R11: Assume that all classes have at least one function.
 * R12: If a function contains nested functions, the function's metrics should be computed, including the structures of the nested functions. In addition, each nested function should be included as well.
+* R13: `for` and `if` in this kind of code `[(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]` are *NOT* counted.
 
 
 ## Note:
