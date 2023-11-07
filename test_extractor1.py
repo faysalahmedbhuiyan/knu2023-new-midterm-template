@@ -1,4 +1,4 @@
-from design_extractor import collectProgramDesign
+from extractor import collect_function_structure
 
 test_input_path = "./input.py"
 
