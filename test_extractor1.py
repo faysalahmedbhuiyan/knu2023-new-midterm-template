@@ -1,6 +1,6 @@
 from extractor import collect_function_structure
 
-test_input_path = "./input.py"
+test_input_path = "./newinput.py"
 
 def test_app_analyzer():
     expected = {"MyClassA":
@@ -14,5 +14,4 @@ def test_app_analyzer():
                  }
                }
 
-    # print(collectProgramDesign(test_input_path))
     assert expected == collect_function_structure(test_input_path)
