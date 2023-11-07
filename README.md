@@ -18,6 +18,8 @@ Your submission must satisfy the following requirements:
 * R11: Assume that all classes have at least one function.
 * R12: If a function contains nested functions, the function's metrics should be computed, including the structures of the nested functions. In addition, each nested function should be included as well.
 * R13: `for` and `if` in this kind of code `[(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]` are *NOT* counted.
+* R14: `num_total_if` and `num_total_for` represent the total numbers of `if` and `for` statements in each function, respectively.
+* R15: `max_nested_if` and `max_nested_for` mean the maximum depth of nested `if` and `for` statements in each function, respectively.
 
 
 ## Note:
